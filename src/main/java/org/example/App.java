@@ -1,5 +1,7 @@
 package org.example;
 
+import java.util.Scanner;
+
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class App {
@@ -13,5 +15,18 @@ public class App {
             // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
             System.out.println("i = " + i);
         }
+
+    }
+    public static int askInt() {
+        Scanner input = new Scanner(System.in);
+        System.out.print("Enter a number: ");
+        int number = input.nextInt();
+        return number;
+
+
+    }
+    public static void runLoop() {
+        Scanner input = new Scanner(System.in);
+        System.out.print("Enter a number: ");
     }
 }
