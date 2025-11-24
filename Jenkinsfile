@@ -13,7 +13,6 @@ pipeline {
         DOCKERHUB_REPO = 'fari59/sep2_week5_f2025'
         DOCKER_IMAGE_TAG = 'latest'
 
-
     }
 
     stages {
